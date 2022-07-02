@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>DAO King</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="CSS\homepage.css" />
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+
+	</head>
+	<body>
+		<div id="content-container" >
+			<div id="content"  >
+				<div id="bg"  ></div>
+				<div id="rectangle_1"  ></div>
+				<div id="rectangle_10"  ></div>
+				<div id="rectangle_12"  ></div>
+				<div id="rectangle_11"  ></div>
+				<div id="rectangle_13"  ></div>
+				<img src="skins/rectangle_8.png" id="rectangle_8" />
+				<div id="rectangle_5"  ></div>
+				<div id="min_staking_amount" >
+					Min Staking Amount
+				</div>
+				<div id="total_stakable_token" >
+					Total Stakable Token
+				</div>
+				<div id="total_stakable_token_in_usd" >
+					Total Stakable Token In USD
+				</div>
+				<div id="unstake_fee" >
+					Unstake Fee
+				</div>
+				<div id="lock_deadline" >
+					Lock Deadline
+				</div>
+				<div id="pool_filled" >
+					Pool Filled
+				</div>
+				<div id="stake_your_token" >
+					Stake Your Token
+				</div>
+				<div id="your_wallet_address" >
+					Your Wallet Address
+				</div>
+				<div id="_53746_token" >
+					53746 TOKEN
+				</div>
+				<div id="__532345" >
+					$532345
+				</div>
+				<div id="_15_" >
+					15%
+				</div>
+				<div id="_30_days" >
+					30 Days
+				</div>
+				<div id="_0x8f5d___8955" >
+					0x8F5d...8955
+				</div>
+				<div id="apy_in_percentage" >
+					APY In Percentage
+				</div>
+				<div id="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo" >
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat ullamco laboris nisi ut aliquip ex ea commodo
+				</div>
+				<div id="max_staking_amount" >
+					Max Staking Amount
+				</div>
+				<div id="current_token_price" >
+					Current Token Price
+				</div>
+				<div id="_50_usdt" >
+					50 USDT
+				</div>
+				<div id="_24__apy" >
+					24% APY
+				</div>
+				<div id="_500_usdt" >
+					500 USDT
+				</div>
+				<div id="_1_384_usdt" >
+					1.384 USDT
+				</div>
+				<div id="stake_your__token_and_earn_20__interest_on_staked_token" >
+					<span style="font-style:normal; text-decoration:NONE; ">Stake Your</span><span style="color:#00C78B; font-style:normal; text-decoration:NONE; "> $Token <br/></span><span style="font-style:normal; text-decoration:NONE; ">And Earn 20% Interest<br/>On Staked Token</span>
+				</div>
+
+				<div id="progress_bar"  >
+					<progress id = "rectangle_14" value="45" max = "45"></progress>
+
+				</div>
+				<div id="_45__filled" >
+					45% Filled
+				</div>
+				<div id="rectangle_16" contentEditable=true data-text="Enter text here"></div>
+				<div id = "button" >
+					MAX
+				</div>
+				<!--<div id="enter_amount_of_token" >
+					Enter Amount Of Token
+				</div>-->
+				<div id="rectangle_18"  ></div>
+				<div id="rectangle_19"  ></div>
+				<div id="rectangle_21"  ></div>
+				<div id="rectangle_22"  ></div>
+				<div id="rectangle_20"  ></div>
+				<div id="stake___button" >
+					STAKE
+				</div>
+				<div id="unstake___button" >
+					UNSTAKE
+				</div>
+				<div id="emergency_withdraw___button" >
+					EMERGENCY WITHDRAW
+				</div>
+				<div id="connect___button" >
+					<div class="flex-col space-y-2 justify-center items-center">
+						<button id='loginButton' onclick="" class="items-center  text-white font-bold">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connect
+						</button>
+						<p id='userWallet' class='text-lg text-gray-600 my-2'></p>
+					  </div>
+				</div>
+				<div id="website___button" >
+					WEBSITE
+				</div>
+				<img src="skins/_700_7007170_logo_transparent_random_logo_png_png_download_removebg_preview_1.png" id="_700_7007170_logo_transparent_random_logo_png_png_download_removebg_preview_1" />
+				<div id="dao_king" >
+					DAO KING
+				</div>
+			</div>
+		</div>
+		<script>
+			window.userWalletAddress = null
+			const loginButton = document.getElementById('loginButton')
+			const userWallet = document.getElementById('userWallet')
+		
+			function toggleButton() {
+			  if (!window.ethereum) {
+				loginButton.innerText = 'MetaMask is not installed'
+				loginButton.classList.remove('bg-purple-500', 'text-white')
+				loginButton.classList.add('bg-gray-500', 'text-gray-100', 'cursor-not-allowed')
+				return false
+			  }
+		
+			  loginButton.addEventListener('click', loginWithMetaMask)
+			}
+		
+			async function loginWithMetaMask() {
+			  const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' })
+				.catch((e) => {
+				  console.error(e.message)
+				  return
+				})
+			  if (!accounts) { return }
+		
+			  window.userWalletAddress = accounts[0]
+			  userWallet.innerText = window.userWalletAddress
+			  loginButton.innerText = 'Sign out of MetaMask'
+		
+			  loginButton.removeEventListener('click', loginWithMetaMask)
+			  setTimeout(() => {
+				loginButton.addEventListener('click', signOutOfMetaMask)
+			  }, 200)
+			}
+		
+			function signOutOfMetaMask() {
+			  window.userWalletAddress = null
+			  userWallet.innerText = ''
+			  loginButton.innerText = 'Sign in with MetaMask'
+		
+			  loginButton.removeEventListener('click', signOutOfMetaMask)
+			  setTimeout(() => {
+				loginButton.addEventListener('click', loginWithMetaMask)
+			  }, 200)
+			}
+		
+			window.addEventListener('DOMContentLoaded', () => {
+			  toggleButton()
+			});
+		  </script>
+	</body>
+</html>

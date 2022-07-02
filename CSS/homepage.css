@@ -1,0 +1,2581 @@
+
+ 
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+ 
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+ 
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px;  overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#content {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1012px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 1012px;
+	background:rgba(15.19,15.76,27.63,1);
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 70px;
+	background:rgba(14,14,27,1);
+}
+
+
+#rectangle_10 {
+	top: 134px;
+	left: 745px;
+	width: 292px;
+	height: 104px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-o-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-moz-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_12 {
+	top: 703px;
+	left: 86px;
+	width: 279px;
+	height: 104px;
+	-ms-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-o-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-moz-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_11 {
+	top: 134px;
+	left: 1076px;
+	width: 272px;
+	height: 104px;
+	-ms-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-o-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-moz-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_13 {
+	top: 703px;
+	left: 379px;
+	width: 279px;
+	height: 104px;
+	-ms-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-o-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	-moz-box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	box-shadow:5px 5px 6px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_8 {
+	top: 258px;
+	left: 746px;
+	width: 602px;
+	height: 651px;
+}
+
+
+#rectangle_5 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 80px;
+	background:rgba(28,29,57,1);
+}
+
+
+#min_staking_amount {
+	top: 145px;
+	left: 800px;
+	width: 247px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token {
+	top: 333px;
+	left: 800px;
+	width: 254px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token_in_usd {
+	top: 381px;
+	left: 800px;
+	width: 329px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#unstake_fee {
+	top: 429px;
+	left: 800px;
+	width: 160px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lock_deadline {
+	top: 475px;
+	left: 800px;
+	width: 179px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#pool_filled {
+	top: 526px;
+	left: 800px;
+	width: 136px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#stake_your_token {
+	top: 617px;
+	left: 800px;
+	width: 214px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#your_wallet_address {
+	top: 284px;
+	left: 800px;
+	width: 247px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_53746_token {
+	top: 333px;
+	left: 1179px;
+	width: 172px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#__532345 {
+	top: 381px;
+	left: 1229px;
+	width: 123px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_15_ {
+	top: 430px;
+	left: 1288px;
+	width: 67px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_30_days {
+	top: 475px;
+	left: 1240px;
+	width: 115px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_0x8f5d___8955 {
+	top: 284px;
+	left: 1170px;
+	width: 179px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#apy_in_percentage {
+	top: 714px;
+	left: 102px;
+	width: 226px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo {
+	top: 393px;
+	left: 86px;
+	width: 603px;
+	height: 258px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 26px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#max_staking_amount {
+	top: 145px;
+	left: 1107px;
+	width: 253px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#current_token_price {
+	top: 714px;
+	left: 403px;
+	width: 241px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 22px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_50_usdt {
+	top: 176px;
+	left: 800px;
+	width: 169px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_24__apy {
+	top: 745px;
+	left: 102px;
+	width: 171px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_500_usdt {
+	top: 176px;
+	left: 1107px;
+	width: 189px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_1_384_usdt {
+	top: 745px;
+	left: 403px;
+	width: 207px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#stake_your__token_and_earn_20__interest_on_staked_token {
+	top: 134px;
+	left: 86px;
+	width: 629px;
+	height: 270px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 52px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#progress_bar {
+	top: 570px;
+	left: 800px;
+	width: 292px;
+	height: 19px;
+	color:#00C78B;
+}
+
+#rectangle_14 {
+	opacity:0.20000000298023;
+	top: 0px;
+	left: 0px;
+	width: 292px;
+	height: 27px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	background:rgba(1, 117, 7, 0.2);
+}
+
+
+#_45__filled {
+	top: 570px;
+	left: 797px;
+	width: 305px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_16 {
+	opacity:0.20000000298023;
+	top: 660px;
+	left: 800px;
+	width: 414px;
+	height: 40px;
+	background:rgba(217,217,217,0.2);
+}
+#button{
+	top: 660px;
+	left: 1214px;
+	width: 115px;
+	height: 40px;
+	background:rgba(255,255,255,1);
+	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;
+}
+
+
+
+#max {
+	top: 660px;
+	left: 1211px;
+	width: 128px;
+	height: 51px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#enter_amount_of_token {
+	top: 660px;
+	left: 797px;
+	width: 232px;
+	height: 51px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#rectangle_18 {
+	top: 744px;
+	left: 806px;
+	width: 258px;
+	height: 37px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(245.86,255,252.26,1);
+}
+
+
+#rectangle_19 {
+	top: 744px;
+	left: 1079px;
+	width: 250px;
+	height: 37px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_21 {
+	top: 18px;
+	left: 1184px;
+	width: 184px;
+	height: 44px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(0,199.75,139.82,1);
+}
+
+
+#rectangle_22 {
+	opacity:0;
+	top: 18px;
+	left: 996px;
+	width: 181px;
+	height: 48px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #00c88c;
+	background:rgba(0,199.75,139.82,0);
+}
+
+
+#rectangle_20 {
+	top: 799px;
+	left: 806px;
+	width: 526px;
+	height: 37px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(255,0,0,1);
+}
+
+
+#stake___button {
+	top: 744px;
+	left: 803px;
+	width: 271px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#unstake___button {
+	top: 743px;
+	left: 1076px;
+	width: 263px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#emergency_withdraw___button {
+	top: 799px;
+	left: 803px;
+	width: 539px;
+	height: 48px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#connect___button {
+	top: 14px;
+	left: 1181px;
+	right: auto;
+	width: 197px;
+	height: 55px;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#website___button {
+	top: 18px;
+	left: 993px;
+	width: 190px;
+	height: 55px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#_700_7007170_logo_transparent_random_logo_png_png_download_removebg_preview_1 {
+	top: 14px;
+	left: 23px;
+	width: 116px;
+	height: 48.75px;
+}
+
+
+#dao_king {
+	top: 25px;
+	left: 135px;
+	width: 182px;
+	height: 54px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+@media only screen and (min-width : 450px){
+ 
+#content-container * { display:inherit; opacity:1; }
+#content-container style, #content-container script { display:none; }
+#content-container a, #content-container span, #content-container br { display:inline; }
+
+#content-container { width:450px; }
+
+#content {
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 316.25px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 316.25px;
+	background:rgba(15.19,15.76,27.63,1);
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 21.88px;
+	background:rgba(14,14,27,1);
+}
+
+
+#rectangle_10 {
+	top: 42px;
+	left: 233px;
+	width: 91.25px;
+	height: 32.5px;
+	-ms-border-radius: 3.13px;
+	-o-border-radius: 3.13px;
+	-moz-border-radius: 3.13px;
+	-webkit-border-radius: 3.13px;
+	border-radius: 3.13px;
+	-ms-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-o-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-moz-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_12 {
+	top: 220px;
+	left: 27px;
+	width: 87.19px;
+	height: 32.5px;
+	-ms-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-o-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-moz-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_11 {
+	top: 42px;
+	left: 336px;
+	width: 85px;
+	height: 32.5px;
+	-ms-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-o-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-moz-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_13 {
+	top: 220px;
+	left: 118px;
+	width: 87.19px;
+	height: 32.5px;
+	-ms-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-o-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	-moz-box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	box-shadow:1.56px 1.56px 2px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_8 {
+	top: 81px;
+	left: 233px;
+	width: 188.13px;
+	height: 203.44px;
+}
+
+
+#rectangle_5 {
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 25px;
+	background:rgba(28,29,57,1);
+}
+
+
+#min_staking_amount {
+	top: 45px;
+	left: 250px;
+	width: 81.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token {
+	top: 104px;
+	left: 250px;
+	width: 83.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token_in_usd {
+	top: 119px;
+	left: 250px;
+	width: 107.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#unstake_fee {
+	top: 134px;
+	left: 250px;
+	width: 54.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lock_deadline {
+	top: 148px;
+	left: 250px;
+	width: 60.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#pool_filled {
+	top: 164px;
+	left: 250px;
+	width: 46.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#stake_your_token {
+	top: 193px;
+	left: 250px;
+	width: 71.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#your_wallet_address {
+	top: 89px;
+	left: 250px;
+	width: 81.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_53746_token {
+	top: 104px;
+	left: 368px;
+	width: 58.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#__532345 {
+	top: 119px;
+	left: 384px;
+	width: 42.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_15_ {
+	top: 134px;
+	left: 403px;
+	width: 25.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_30_days {
+	top: 148px;
+	left: 388px;
+	width: 40.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_0x8f5d___8955 {
+	top: 89px;
+	left: 366px;
+	width: 60.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#apy_in_percentage {
+	top: 223px;
+	left: 32px;
+	width: 75.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo {
+	top: 123px;
+	left: 27px;
+	width: 191.8125px;
+	height: 81.0625px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 8.13px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#max_staking_amount {
+	top: 45px;
+	left: 346px;
+	width: 83.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#current_token_price {
+	top: 223px;
+	left: 126px;
+	width: 79.4375px;
+	height: 14.4375px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 6.88px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_50_usdt {
+	top: 55px;
+	left: 250px;
+	width: 57px;
+	height: 22px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 10px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_24__apy {
+	top: 233px;
+	left: 32px;
+	width: 57px;
+	height: 22px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 10px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_500_usdt {
+	top: 55px;
+	left: 346px;
+	width: 63px;
+	height: 22px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 10px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_1_384_usdt {
+	top: 233px;
+	left: 126px;
+	width: 68px;
+	height: 22px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 10px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#stake_your__token_and_earn_20__interest_on_staked_token {
+	top: 42px;
+	left: 27px;
+	width: 200.125px;
+	height: 83.125px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.25px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#progress_bar {
+	top: 178px;
+	left: 250px;
+	width: 91.25px;
+	height: 5.94px;
+}
+
+#rectangle_14 {
+	opacity:0.20000000298023;
+	top: 0px;
+	left: 0px;
+	width: 91.25px;
+	height: 8.44px;
+	-ms-border-radius: 15.63px;
+	-o-border-radius: 15.63px;
+	-moz-border-radius: 15.63px;
+	-webkit-border-radius: 15.63px;
+	border-radius: 15.63px;
+	background:#00c88c;
+}
+
+
+#_45__filled {
+	top: 178px;
+	left: 249px;
+	width: 99px;
+	height: 11.94px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_16 {
+	opacity:0.20000000298023;
+	top: 206px;
+	left: 250px;
+	width: 129.38px;
+	height: 12.5px;
+	background:rgba(217,217,217,0.2);
+}
+
+
+#rectangle_17 {
+	top: 206px;
+	left: 379px;
+	width: 35.94px;
+	height: 12.5px;
+	background:rgba(255,255,255,1);
+}
+
+
+#max {
+	top: 206px;
+	left: 378px;
+	width: 43.44px;
+	height: 16px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#enter_amount_of_token {
+	top: 206px;
+	left: 249px;
+	width: 76px;
+	height: 16px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#rectangle_18 {
+	top: 233px;
+	left: 252px;
+	width: 80.63px;
+	height: 11.56px;
+	-ms-border-radius: 3.13px;
+	-o-border-radius: 3.13px;
+	-moz-border-radius: 3.13px;
+	-webkit-border-radius: 3.13px;
+	border-radius: 3.13px;
+	background:rgba(245.86,255,252.26,1);
+}
+
+
+#rectangle_19 {
+	top: 233px;
+	left: 337px;
+	width: 78.13px;
+	height: 11.56px;
+	-ms-border-radius: 3.13px;
+	-o-border-radius: 3.13px;
+	-moz-border-radius: 3.13px;
+	-webkit-border-radius: 3.13px;
+	border-radius: 3.13px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_21 {
+	top: 6px;
+	left: 370px;
+	width: 57.5px;
+	height: 13.75px;
+	-ms-border-radius: 3.13px;
+	-o-border-radius: 3.13px;
+	-moz-border-radius: 3.13px;
+	-webkit-border-radius: 3.13px;
+	border-radius: 3.13px;
+	background:rgba(0,199.75,139.82,1);
+}
+
+
+#rectangle_22 {
+	opacity:0;
+	top: 6px;
+	left: 311px;
+	width: 56.57px;
+	height: 15.01px;
+	-ms-border-radius: 3.13px;
+	-o-border-radius: 3.13px;
+	-moz-border-radius: 3.13px;
+	-webkit-border-radius: 3.13px;
+	border-radius: 3.13px;
+	border: 0.63px solid #00c88c;
+	background:rgba(0,199.75,139.82,0);
+}
+
+
+#rectangle_20 {
+	top: 250px;
+	left: 252px;
+	width: 164.38px;
+	height: 11.56px;
+	-ms-border-radius: 3.13px;
+	-o-border-radius: 3.13px;
+	-moz-border-radius: 3.13px;
+	-webkit-border-radius: 3.13px;
+	border-radius: 3.13px;
+	background:rgba(255,0,0,1);
+}
+
+
+#stake___button {
+	top: 233px;
+	left: 251px;
+	width: 88.13px;
+	height: 15.06px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#unstake___button {
+	top: 232px;
+	left: 336px;
+	width: 86px;
+	height: 15.06px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#emergency_withdraw___button {
+	top: 250px;
+	left: 251px;
+	width: 172px;
+	height: 15.06px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#connect___button {
+	top: 6px;
+	left: 369px;
+	width: 65px;
+	height: 17.25px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#website___button {
+	top: 6px;
+	left: 310px;
+	width: 63px;
+	height: 17.25px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 5px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#_700_7007170_logo_transparent_random_logo_png_png_download_removebg_preview_1 {
+	top: 4px;
+	left: 7px;
+	width: 36.25px;
+	height: 15.24px;
+}
+
+
+#dao_king {
+	top: 8px;
+	left: 42px;
+	width: 61.375px;
+	height: 17.375px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 8.75px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+}
+ 
+@media only screen and (min-width : 850px){
+ 
+#content-container * { display:inherit; opacity:1; }
+#content-container style, #content-container script { display:none; }
+#content-container a, #content-container span, #content-container br { display:inline; }
+
+#content-container { width:850px; }
+
+#content {
+	top: 0px;
+	left: 0px;
+	width: 850px;
+	height: 597.36px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 850px;
+	height: 597.36px;
+	background:rgba(15.19,15.76,27.63,1);
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 850px;
+	height: 41.32px;
+	background:rgba(14,14,27,1);
+}
+
+
+#rectangle_10 {
+	top: 79px;
+	left: 440px;
+	width: 172.36px;
+	height: 61.39px;
+	-ms-border-radius: 5.9px;
+	-o-border-radius: 5.9px;
+	-moz-border-radius: 5.9px;
+	-webkit-border-radius: 5.9px;
+	border-radius: 5.9px;
+	-ms-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-o-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-moz-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_12 {
+	top: 415px;
+	left: 51px;
+	width: 164.69px;
+	height: 61.39px;
+	-ms-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-o-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-moz-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_11 {
+	top: 79px;
+	left: 635px;
+	width: 160.56px;
+	height: 61.39px;
+	-ms-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-o-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-moz-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_13 {
+	top: 415px;
+	left: 224px;
+	width: 164.69px;
+	height: 61.39px;
+	-ms-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-o-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	-moz-box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	box-shadow:2.95px 2.95px 4px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_8 {
+	top: 152px;
+	left: 440px;
+	width: 355.35px;
+	height: 384.27px;
+}
+
+
+#rectangle_5 {
+	top: 0px;
+	left: 0px;
+	width: 850px;
+	height: 47.22px;
+	background:rgba(28,29,57,1);
+}
+
+
+#min_staking_amount {
+	top: 86px;
+	left: 472px;
+	width: 148.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token {
+	top: 197px;
+	left: 472px;
+	width: 152.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token_in_usd {
+	top: 225px;
+	left: 472px;
+	width: 196.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#unstake_fee {
+	top: 253px;
+	left: 472px;
+	width: 97.493055820465px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lock_deadline {
+	top: 280px;
+	left: 472px;
+	width: 108.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#pool_filled {
+	top: 310px;
+	left: 472px;
+	width: 82.493055820465px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#stake_your_token {
+	top: 364px;
+	left: 472px;
+	width: 129.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#your_wallet_address {
+	top: 168px;
+	left: 472px;
+	width: 148.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_53746_token {
+	top: 197px;
+	left: 696px;
+	width: 104.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#__532345 {
+	top: 225px;
+	left: 725px;
+	width: 75.493055820465px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_15_ {
+	top: 254px;
+	left: 760px;
+	width: 42.493055820465px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_30_days {
+	top: 280px;
+	left: 732px;
+	width: 70.493055820465px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_0x8f5d___8955 {
+	top: 168px;
+	left: 691px;
+	width: 108.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#apy_in_percentage {
+	top: 421px;
+	left: 60px;
+	width: 136.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo {
+	top: 232px;
+	left: 51px;
+	width: 358.31361116409px;
+	height: 152.34361116409px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 15.35px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#max_staking_amount {
+	top: 86px;
+	left: 653px;
+	width: 151.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#current_token_price {
+	top: 421px;
+	left: 238px;
+	width: 144.49305582047px;
+	height: 28.493055820465px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.99px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_50_usdt {
+	top: 104px;
+	left: 472px;
+	width: 102.44444465637px;
+	height: 41.444444656372px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18.89px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_24__apy {
+	top: 440px;
+	left: 60px;
+	width: 103.44444465637px;
+	height: 41.444444656372px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18.89px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_500_usdt {
+	top: 104px;
+	left: 653px;
+	width: 114.44444465637px;
+	height: 41.444444656372px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18.89px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_1_384_usdt {
+	top: 440px;
+	left: 238px;
+	width: 125.44444465637px;
+	height: 41.444444656372px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18.89px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#stake_your__token_and_earn_20__interest_on_staked_token {
+	top: 79px;
+	left: 51px;
+	width: 374.34722232819px;
+	height: 159.34722232819px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 30.69px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#progress_bar {
+	top: 336px;
+	left: 472px;
+	width: 172.36px;
+	height: 11.22px;
+}
+
+#rectangle_14 {
+	opacity:0.20000000298023;
+	top: 0px;
+	left: 0px;
+	width: 172.36px;
+	height: 15.94px;
+	-ms-border-radius: 29.51px;
+	-o-border-radius: 29.51px;
+	-moz-border-radius: 29.51px;
+	-webkit-border-radius: 29.51px;
+	border-radius: 29.51px;
+	background:rgba(217,217,217,0.2);
+}
+
+
+#_45__filled {
+	top: 336px;
+	left: 470px;
+	width: 182.08222232819px;
+	height: 22.662222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_16 {
+	opacity:0.20000000298023;
+	top: 390px;
+	left: 472px;
+	width: 244.38px;
+	height: 23.61px;
+	background:rgba(217,217,217,0.2);
+}
+
+
+#rectangle_17 {
+	top: 390px;
+	left: 717px;
+	width: 67.88px;
+	height: 23.61px;
+	background:rgba(255,255,255,1);
+}
+
+
+#max {
+	top: 390px;
+	left: 715px;
+	width: 78px;
+	height: 30.332222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#enter_amount_of_token {
+	top: 390px;
+	left: 470px;
+	width: 139px;
+	height: 30.332222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#rectangle_18 {
+	top: 439px;
+	left: 476px;
+	width: 152.29px;
+	height: 21.84px;
+	-ms-border-radius: 5.9px;
+	-o-border-radius: 5.9px;
+	-moz-border-radius: 5.9px;
+	-webkit-border-radius: 5.9px;
+	border-radius: 5.9px;
+	background:rgba(245.86,255,252.26,1);
+}
+
+
+#rectangle_19 {
+	top: 439px;
+	left: 637px;
+	width: 147.57px;
+	height: 21.84px;
+	-ms-border-radius: 5.9px;
+	-o-border-radius: 5.9px;
+	-moz-border-radius: 5.9px;
+	-webkit-border-radius: 5.9px;
+	border-radius: 5.9px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_21 {
+	top: 11px;
+	left: 699px;
+	width: 108.61px;
+	height: 25.97px;
+	-ms-border-radius: 5.9px;
+	-o-border-radius: 5.9px;
+	-moz-border-radius: 5.9px;
+	-webkit-border-radius: 5.9px;
+	border-radius: 5.9px;
+	background:rgba(0,199.75,139.82,1);
+}
+
+
+#rectangle_22 {
+	opacity:0;
+	top: 11px;
+	left: 588px;
+	width: 106.84px;
+	height: 28.33px;
+	-ms-border-radius: 5.9px;
+	-o-border-radius: 5.9px;
+	-moz-border-radius: 5.9px;
+	-webkit-border-radius: 5.9px;
+	border-radius: 5.9px;
+	border: 1.18px solid #00c88c;
+	background:rgba(0,199.75,139.82,0);
+}
+
+
+#rectangle_20 {
+	top: 472px;
+	left: 476px;
+	width: 310.49px;
+	height: 21.84px;
+	-ms-border-radius: 5.9px;
+	-o-border-radius: 5.9px;
+	-moz-border-radius: 5.9px;
+	-webkit-border-radius: 5.9px;
+	border-radius: 5.9px;
+	background:rgba(255,0,0,1);
+}
+
+
+#stake___button {
+	top: 439px;
+	left: 474px;
+	width: 162.01222232819px;
+	height: 28.562222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#unstake___button {
+	top: 439px;
+	left: 635px;
+	width: 157.29222232819px;
+	height: 28.562222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#emergency_withdraw___button {
+	top: 472px;
+	left: 474px;
+	width: 320.21222232819px;
+	height: 28.562222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#connect___button {
+	top: 11px;
+	left: 697px;
+	width: 118.33222232819px;
+	height: 32.692222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#website___button {
+	top: 11px;
+	left: 586px;
+	width: 114.20222232819px;
+	height: 32.692222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 9.44px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#_700_7007170_logo_transparent_random_logo_png_png_download_removebg_preview_1 {
+	top: 8px;
+	left: 14px;
+	width: 68.47px;
+	height: 28.78px;
+}
+
+
+#dao_king {
+	top: 15px;
+	left: 80px;
+	width: 110.26388931274px;
+	height: 31.263889312744px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 16.53px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+}
+ 
+@media only screen and (min-width : 1100px){
+ 
+#content-container * { display:inherit; opacity:1; }
+#content-container style, #content-container script { display:none; }
+#content-container a, #content-container span, #content-container br { display:inline; }
+
+#content-container { width:1100px; }
+
+#content {
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 773.06px;
+}
+
+#bg {
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 773.06px;
+	background:rgba(15.19,15.76,27.63,1);
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 53.47px;
+	background:rgba(14,14,27,1);
+}
+
+
+#rectangle_10 {
+	top: 102px;
+	left: 569px;
+	width: 223.06px;
+	height: 79.44px;
+	-ms-border-radius: 7.64px;
+	-o-border-radius: 7.64px;
+	-moz-border-radius: 7.64px;
+	-webkit-border-radius: 7.64px;
+	border-radius: 7.64px;
+	-ms-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-o-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-moz-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_12 {
+	top: 537px;
+	left: 66px;
+	width: 213.13px;
+	height: 79.44px;
+	-ms-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-o-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-moz-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_11 {
+	top: 102px;
+	left: 822px;
+	width: 207.78px;
+	height: 79.44px;
+	-ms-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-o-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-moz-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_13 {
+	top: 537px;
+	left: 290px;
+	width: 213.13px;
+	height: 79.44px;
+	-ms-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-o-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-webkit-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	-moz-box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	box-shadow:3.82px 3.82px 5px 1px rgba(255,255,255,1);
+	background:rgba(28,29,57,1);
+}
+
+
+#rectangle_8 {
+	top: 197px;
+	left: 570px;
+	width: 459.86px;
+	height: 497.29px;
+}
+
+
+#rectangle_5 {
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 61.11px;
+	background:rgba(28,29,57,1);
+}
+
+
+#min_staking_amount {
+	top: 111px;
+	left: 611px;
+	width: 190.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token {
+	top: 254px;
+	left: 611px;
+	width: 196.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#total_stakable_token_in_usd {
+	top: 291px;
+	left: 611px;
+	width: 253.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#unstake_fee {
+	top: 328px;
+	left: 611px;
+	width: 124.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lock_deadline {
+	top: 363px;
+	left: 611px;
+	width: 138.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#pool_filled {
+	top: 402px;
+	left: 611px;
+	width: 105.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#stake_your_token {
+	top: 471px;
+	left: 611px;
+	width: 165.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#your_wallet_address {
+	top: 217px;
+	left: 611px;
+	width: 190.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_53746_token {
+	top: 254px;
+	left: 901px;
+	width: 133.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#__532345 {
+	top: 291px;
+	left: 939px;
+	width: 95.402777671814px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_15_ {
+	top: 328px;
+	left: 984px;
+	width: 52.402777671814px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_30_days {
+	top: 363px;
+	left: 947px;
+	width: 90.402777671814px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_0x8f5d___8955 {
+	top: 217px;
+	left: 894px;
+	width: 138.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#apy_in_percentage {
+	top: 545px;
+	left: 78px;
+	width: 174.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua__ut_enim_ad_minim_veniam__quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo {
+	top: 300px;
+	left: 66px;
+	width: 461.87055534363px;
+	height: 197.26055534363px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 19.86px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#max_staking_amount {
+	top: 111px;
+	left: 846px;
+	width: 195.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#current_token_price {
+	top: 545px;
+	left: 308px;
+	width: 185.40277767181px;
+	height: 36.402777671814px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16.81px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#_50_usdt {
+	top: 134px;
+	left: 611px;
+	width: 130.22222232819px;
+	height: 54.222222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24.44px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_24__apy {
+	top: 569px;
+	left: 78px;
+	width: 132.22222232819px;
+	height: 54.222222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24.44px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_500_usdt {
+	top: 134px;
+	left: 846px;
+	width: 146.22222232819px;
+	height: 54.222222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24.44px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#_1_384_usdt {
+	top: 569px;
+	left: 308px;
+	width: 159.22222232819px;
+	height: 54.222222328186px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24.44px;
+	text-align: left;
+	color:#00C78B;
+}
+
+
+#stake_your__token_and_earn_20__interest_on_staked_token {
+	top: 102px;
+	left: 66px;
+	width: 481.86111068726px;
+	height: 207.86111068726px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 39.72px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#progress_bar {
+	top: 435px;
+	left: 611px;
+	width: 223.06px;
+	height: 14.51px;
+}
+
+#rectangle_14 {
+	opacity:0.20000000298023;
+	top: 0px;
+	left: 0px;
+	width: 223.06px;
+	height: 20.63px;
+	-ms-border-radius: 38.19px;
+	-o-border-radius: 38.19px;
+	-moz-border-radius: 38.19px;
+	-webkit-border-radius: 38.19px;
+	border-radius: 38.19px;
+	background:rgba(217,217,217,0.2);
+}
+
+
+#_45__filled {
+	top: 435px;
+	left: 609px;
+	width: 234.17111116409px;
+	height: 28.741111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_16 {
+	opacity:0.20000000298023;
+	top: 504px;
+	left: 611px;
+	width: 316.25px;
+	height: 30.56px;
+	background:rgba(217,217,217,0.2);
+}
+
+
+#rectangle_17 {
+	top: 504px;
+	left: 927px;
+	width: 87.85px;
+	height: 30.56px;
+	background:rgba(255,255,255,1);
+}
+
+
+#max {
+	top: 504px;
+	left: 925px;
+	width: 99px;
+	height: 38.671111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#enter_amount_of_token {
+	top: 504px;
+	left: 609px;
+	width: 178.40111116409px;
+	height: 38.671111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#rectangle_18 {
+	top: 568px;
+	left: 616px;
+	width: 197.08px;
+	height: 28.26px;
+	-ms-border-radius: 7.64px;
+	-o-border-radius: 7.64px;
+	-moz-border-radius: 7.64px;
+	-webkit-border-radius: 7.64px;
+	border-radius: 7.64px;
+	background:rgba(245.86,255,252.26,1);
+}
+
+
+#rectangle_19 {
+	top: 568px;
+	left: 824px;
+	width: 190.97px;
+	height: 28.26px;
+	-ms-border-radius: 7.64px;
+	-o-border-radius: 7.64px;
+	-moz-border-radius: 7.64px;
+	-webkit-border-radius: 7.64px;
+	border-radius: 7.64px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_21 {
+	top: 14px;
+	left: 904px;
+	width: 140.56px;
+	height: 33.61px;
+	-ms-border-radius: 7.64px;
+	-o-border-radius: 7.64px;
+	-moz-border-radius: 7.64px;
+	-webkit-border-radius: 7.64px;
+	border-radius: 7.64px;
+	background:rgba(0,199.75,139.82,1);
+}
+
+
+#rectangle_22 {
+	opacity:0;
+	top: 14px;
+	left: 761px;
+	width: 138.27px;
+	height: 36.67px;
+	-ms-border-radius: 7.64px;
+	-o-border-radius: 7.64px;
+	-moz-border-radius: 7.64px;
+	-webkit-border-radius: 7.64px;
+	border-radius: 7.64px;
+	border: 1.53px solid #00c88c;
+	background:rgba(0,199.75,139.82,0);
+}
+
+
+#rectangle_20 {
+	top: 610px;
+	left: 616px;
+	width: 401.81px;
+	height: 28.26px;
+	-ms-border-radius: 7.64px;
+	-o-border-radius: 7.64px;
+	-moz-border-radius: 7.64px;
+	-webkit-border-radius: 7.64px;
+	border-radius: 7.64px;
+	background:rgba(255,0,0,1);
+}
+
+
+#stake___button {
+	top: 568px;
+	left: 614px;
+	width: 208.19111116409px;
+	height: 36.371111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#unstake___button {
+	top: 568px;
+	left: 822px;
+	width: 202.08111116409px;
+	height: 36.371111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#emergency_withdraw___button {
+	top: 610px;
+	left: 614px;
+	width: 413px;
+	height: 36.371111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#connect___button {
+	top: 14px;
+	left: 902px;
+	width: 152px;
+	height: 41.721111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#website___button {
+	top: 14px;
+	left: 759px;
+	width: 146.32111116409px;
+	height: 41.721111164093px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 12.22px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#_700_7007170_logo_transparent_random_logo_png_png_download_removebg_preview_1 {
+	top: 11px;
+	left: 18px;
+	width: 88.61px;
+	height: 37.24px;
+}
+
+
+#dao_king {
+	top: 19px;
+	left: 103px;
+	width: 140.69444465637px;
+	height: 40.694444656372px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 21.39px;
+	font-weight: bold;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+}
+ 
+/* Add your custom CSS here */
